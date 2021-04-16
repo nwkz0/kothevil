@@ -1,9 +1,7 @@
 SHELL=$(which bash)
 #!$SHELL
 
-# // made by nwkz # //
-
-if [[ $1 == "" && $2 == "" ]];then
+if [[ $1 == "" || $2 == "" ]];then
         echo -e "\nsource $0 [IP] [PORT] [Reverse IP] [ Reverse Port ] [OPTIONS] [SHELL]
 
         Usage:\n\t\t[IP]/[PORT]: local server ip / local server port
